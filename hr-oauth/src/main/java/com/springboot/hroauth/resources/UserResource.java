@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserResource {
     @Autowired
     private UserService userService;
-    
+
     @GetMapping(value = "/search")
     public ResponseEntity<User> findByEmail(@RequestParam String email){
         try {
