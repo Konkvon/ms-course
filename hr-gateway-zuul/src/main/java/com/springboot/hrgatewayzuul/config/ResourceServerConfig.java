@@ -1,4 +1,4 @@
-package config;
+package com.springboot.hrgatewayzuul.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
